@@ -1,7 +1,7 @@
 {
   "name": "twitty",
   "version": "1.0.0",
-  "description": "A simple Twitter client. ",
+  "description": "A simple Twitter Client for Terminal.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register"
