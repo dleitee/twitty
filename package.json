@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/dleitee/twitty/issues"
   },
-  "homepage": "https://github.com/dleitee/twitty#readme"
+  "homepage": "https://github.com/dleitee/twitty#readme",
+  "dependencies": {
+    "readline-sync": "^1.2.21"
+  }
 }
