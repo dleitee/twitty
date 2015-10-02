@@ -17,6 +17,10 @@
   ],
   "author": "Daniel Leite de Oliveira <dleitee@gmail.com>",
   "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "twitty": "bin/twitty.js"
+  },
   "bugs": {
     "url": "https://github.com/dleitee/twitty/issues"
   },
