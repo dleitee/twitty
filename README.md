@@ -4,8 +4,8 @@ A simple but gold Twitter Client for Terminal.
 ![Twitty](https://cloud.githubusercontent.com/assets/2229108/10257196/516a33c6-692c-11e5-8ae9-ca7e47704f54.png)
 
 
-## Install
-Twitty is available on npm:
+## ~~Install~~
+~~Twitty is available on npm:~~
 ```
 npm install twitty -g
 ```
