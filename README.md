@@ -50,6 +50,11 @@ Tweet sent successfully!
 $ twitter --help
 ```
 
+## TODO
+
+- [ ] Show timeline
+- [ ] Count followers
+
 ## License
 The MIT License (MIT)
 
