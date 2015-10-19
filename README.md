@@ -4,11 +4,38 @@ A simple but gold Twitter Client for Terminal.
 ![Twitty](https://cloud.githubusercontent.com/assets/2229108/10257196/516a33c6-692c-11e5-8ae9-ca7e47704f54.png)
 
 
-## ~~Install~~
-~~Twitty is available on npm:~~
+## Install
+Twitty is available on npm:
 ```
 npm install twitty -g
 ```
+
+## Config
+
+**Create app on [https://apps.twitter.com/](https://apps.twitter.com/)**
+
+**Add credentials**
+
+*On Mac:*
+```
+vim /usr/local/lib/node_modules/twitty/.twitty.json
+```
+
+*Others:*
+
+Create file ```.twitty.json``` on {NODE_MODULES_PATH}/twitty
+
+**Paste:**
+```
+{
+  "consumer_key": "",
+  "consumer_secret": "",
+  "access_token_key": "",
+  "access_token_secret": ""
+}
+
+```
+
 
 ## Usage
 
@@ -16,13 +43,6 @@ npm install twitty -g
 ```
 $ twitty --send "<Message>"
 Tweet sent successfully!
-```
-
-**List the latest tweets**
-```
-$ twitty --list <number>
-[2015-10-02 09:00:03] @dleitee: NPM Coding Style :)
-[2015-10-02 08:52:53] @dleitee: New features of PHP 7.0.0 #php  
 ```
 
 **Help**
