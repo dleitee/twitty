@@ -52,6 +52,7 @@ $ twitter --help
 
 ## TODO
 
+- [ ] Direct Messages
 - [ ] Show timeline
 - [ ] Count followers
 
