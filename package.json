@@ -30,5 +30,6 @@
   },
   "devDependencies": {
     "ntwitter": "^0.5.0"
-  }
+  },
+  "preferGlobal": "true"
 }
