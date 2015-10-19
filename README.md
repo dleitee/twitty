@@ -12,17 +12,9 @@ npm install twitty -g
 
 ## Usage
 
-**Auth:**
-```
-$ twitty --auth
-user: user
-password: *******
-Authorized!
-```
-
 **Send a tweet**
 ```
-$ twitty --send <Message>
+$ twitty --send "<Message>"
 Tweet sent successfully!
 ```
 

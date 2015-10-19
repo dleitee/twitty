@@ -1,14 +1,16 @@
 #! /usr/bin/env node
+'use strict';
 
-console.log(process.argv);
+let constants = require('../src/constants.js')
 
-var readlineSync = require('readline-sync');
- 
-// Wait for user's response. 
-var userName = readlineSync.question('Username: ');
- 
-// Handle the secret text (e.g. password). 
-var password = readlineSync.question('Password: ', {
-  hideEchoBack: true
-});
-console.log('User:' + userName + ' Password: ' + password + '!');
+let command = process.argv[2];
+let params = process.argv.slice(3);
+
+if(command === constants.SEND){
+    return 'Sending';
+}
+
+if(command === constants.HELP){
+    return 'Help';
+}
+
