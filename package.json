@@ -19,7 +19,7 @@
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "twitty": "bin/twitty.js"
+    "twitter": "bin/twitty.js"
   },
   "bugs": {
     "url": "https://github.com/dleitee/twitty/issues"
