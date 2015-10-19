@@ -23,9 +23,9 @@ if(command === constants.SEND){
 if(command === constants.HELP){
     console.log('Help for Twitty');
     console.log('');
-    console.log('    twitty --send "<Message>"');
+    console.log('    twitter --send "<Message>"');
     console.log('        [Send a Tweet]');
     console.log('');
-    console.log('    twitty --help');
+    console.log('    twitter --help');
 }
 

@@ -6,9 +6,6 @@ var credentials = JSON.parse(fs.readFileSync('.twitty.json', 'utf8'));
 
 module.exports = {
   send: (message, callback) => {
-    
-    console.log(credentials);
-    console.log(message);
 
     var twit = new twitter(credentials);
 

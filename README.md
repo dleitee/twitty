@@ -41,13 +41,13 @@ Create file ```.twitty.json``` on {NODE_MODULES_PATH}/twitty
 
 **Send a tweet**
 ```
-$ twitty --send "<Message>"
+$ twitter --send "<Message>"
 Tweet sent successfully!
 ```
 
 **Help**
 ```
-$ twitty --help
+$ twitter --help
 ```
 
 ## License
