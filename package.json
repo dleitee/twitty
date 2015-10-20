@@ -1,6 +1,6 @@
 {
   "name": "twitty",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A simple Twitter Client for Terminal.",
   "main": "index.js",
   "scripts": {
