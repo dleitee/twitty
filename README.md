@@ -1,4 +1,7 @@
 # Twitty
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/dleitee/twitty.svg)](https://greenkeeper.io/)
+
 A simple but gold Twitter Client for Terminal.
 
 ![Twitty](https://cloud.githubusercontent.com/assets/2229108/10257196/516a33c6-692c-11e5-8ae9-ca7e47704f54.png)
